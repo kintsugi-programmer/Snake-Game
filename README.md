@@ -10,6 +10,8 @@ This project is a simple implementation of the iconic Snake game where players c
 
 You can play the game on the following website: [Snake Game](https://kintsugi-programmer.github.io/Snake-Game/)
 
+![Screenshot 1](/kintsugi-programmer.github.io_Snake-Game_.png)
+
 ## Features
 
 - **Responsive Gameplay:** Control the snake using arrow keys to navigate through the game board.

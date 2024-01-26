@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    font-family: "Courier New", monospace;
+    margin: 1%;
+    color: #878787ff;
+    
+}
+.container {
+    
+    
+    
+}
+#gameContainer{
+    text-align: center;
+    
+    
+}
+#gameBoard{
+    border: 10px solid;
+    border-color: #878787ff;
+}
+#scoreText{
+    font-size: 45px;
+}
+#resetBtn{
+    background-color: #878787ff;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 1px;
+    cursor: pointer;
+}

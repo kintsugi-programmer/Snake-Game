@@ -1,0 +1,64 @@
+LEARNINGS :
+
+To seperate 2 divs into Left,Right
+
+way1 ,css 
+.left-div {
+    float: left;
+    background-color: lightblue;
+}
+
+.right-div {
+    float: right;
+    background-color: lightcoral;
+}
+
+
+way2 ,flexbox
+body {
+    margin: 0; /* Remove default margin to ensure full width */
+    display: flex; /* Use flexbox to position the divs */
+}
+
+.left-div {
+    flex: 1; /* Take up available space, pushing the next div to the right */
+    background-color: lightblue; /* Add styling as needed */
+}
+
+.right-div {
+    background-color: lightcoral; /* Add styling as needed */
+}
+
+md image link:
+![Screenshot 1](/images/1.jpeg)
+
+ascii iamges :
+https://textart.sh/topic/snake
+https://emojicombos.com/snake-ascii-art
+https://fsymbols.com/text-art/
+
+unicode :
+https://www.compart.com/en/unicode/U+02C2
+
+color pallet website :
+https://coolors.co/
+
+remove scroll down by keyboard keydown :
+document.addEventListener("keydown", function (event) {
+    // Check if the pressed key is an arrow key (up or down)
+    if (event.key === "ArrowUp" || event.key === "ArrowDown") {
+        // Prevent the default behavior (scrolling)
+        event.preventDefault();
+    }
+});
+
+
+One liner ASCII ART EG :
+Fish <)))>< Fish Swimming ¸.·´¯·.´¯·.¸¸.·´¯·.¸><(((º>
+
+IDEA : TO ROTATE BOARD SUCH THAT HEAD IS ALWAYS UP ;0
+
+How to make Game
+
+
+
